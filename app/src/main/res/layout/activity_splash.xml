@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SplashActivity">
+
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/splash"
+       android:layout_centerHorizontal="true"
+       android:scaleType="centerCrop"
+       android:layout_centerVertical="true"
+       />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/fresh"
+       android:layout_centerHorizontal="true"
+       android:scaleType="centerCrop"
+       android:layout_marginTop="@dimen/_70sdp"
+       />
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ee"
+       android:layout_centerHorizontal="true"
+       android:scaleType="centerCrop"
+       android:layout_centerVertical="true"
+       />
+   <ProgressBar
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="@dimen/_50sdp"
+      android:layout_centerHorizontal="true"/>
+
+
+
+
+   <TextView
+       android:id="@+id/product_des"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="A Product of FIT5046"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginStart="@dimen/_5sdp"
+       android:layout_marginBottom="@dimen/_10sdp"
+       android:textColor="#FFFFFF"
+       android:textSize="@dimen/_15sdp"
+       />
+
+
+</RelativeLayout>
